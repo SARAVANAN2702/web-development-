@@ -1,0 +1,187 @@
+Table Creation: 
+<!DOCTYPE >
+<html lan='en'>
+<head>
+<style>
+#table{
+border:2px solid black; 
+</style>
+
+</head>
+</body>
+
+<!--table creation-->
+ <h2>SNACKS</h2>
+<table border="2" bgcolor="skyblue" cellpadding="5" cellspacing="5">
+    <thead>
+        <tr>
+            <th></th>
+            <th>ITEMS</th>
+            <th>PRICE</th>
+
+        </tr>
+</thead>
+<tbody>
+    <tr>
+        <td rowspan="5">Snacks</td>
+        <td>Samosa</td>
+        <td>R.s 15</td>
+    </tr>
+    <tr>
+        <td>Sonda</td>
+        <td>R.s 15</td>
+    </tr>
+    <tr>
+        <td>Vada</td>
+        <td>R.s 20</td>
+    </tr>
+    <tr>
+        <td>Tea</td>
+        <td>R.s 25</td>
+    </tr>
+    <tr>
+        <td>Coffee</td>
+        <td>R.s 35</td>
+    </tr>
+</tbody>
+</table>
+
+
+
+<table border="2" bgcolor="green" cellpadding="5" cellspacing="5">
+  <caption>Monthly Electricity Bill</caption>
+  <tr>
+    <th>Month</th>
+    <th>Units</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>50</td>
+  </tr>
+</table>
+
+
+<table>
+  <colgroup>
+    <col span="2" style="background-color:blue">
+    <col style="background-color:red">
+  </colgroup>
+  <tr>
+    <th>Publisher</th>
+    <th>Title</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>Kaniyam</td>
+    <td>CSS in Tamil</td>
+    <td><a href="http://www.kaniyam.com/download/learn-css-in-tamil.pdf/">CSS book</a></td>
+  </tr>
+  <tr>
+    <td>Kaniyam</td>
+    <td>JavaScript in Tamil</td>
+    <td><a href="https://freetamilebooks.com/download/%e0%ae%8e%e0%ae%b3%e0%ae%bf%e0%ae%af-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%ae%bf%e0%ae%b2%e0%af%8d-javascript-a4-pdf/"> எளிய தமிழில் ஜாவாஸ்கிரிப்ட்</a></td>
+  </tr>
+</table>
+
+<!--Nested Table-->
+
+<table id="table1">
+  <tr>
+    <th>title1</th>
+    <th>title2</th>
+    <th>title3</th>
+  </tr>
+  <tr>
+    <td id="nested">
+      <table id="table2">
+        <tr>
+          <td>cell1</td>
+          <td>cell2</td>
+          <td>cell3</td>
+        </tr>
+      </table>
+    </td>
+    <td>cell2</td>
+    <td>cell3</td>
+  </tr>
+  <tr>
+    <td>cell4</td>
+    <td>cell5</td>
+    <td>cell6</td>
+  </tr>
+</table>
+
+<!--Check Boxes:--> 
+
+<h1>Check the Course you wish</h1>
+<label class="container">Java
+  <input type="checkbox" checked="checked">
+  
+</label>
+<label class="container">Python
+  <input type="checkbox" id="P" >
+
+</label>
+<label class="container">Angular
+  <input type="checkbox" id="A" >
+
+</label>
+<label  class="container">
+	React
+<input type="checkbox" >
+
+</label>
+
+
+<!--Radio Buttons: -->
+
+<input type="radio" id="html" name="fav_language" value="HTML"> HTML
+<label for="html"><h2>HTML</h2></label>
+<input type="radio" id="css" name="fav_language" value="CSS">
+<label for="css"><h2>CSS</h2></label>
+<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+<label for="javascript"><h2>JavaScript</h2></label> 
+
+
+<!--Input Box - Password: -->
+
+  <input type="text" id="fname" name="fname" value="Kathir"><br>
+  <label for="lname"><h3>Password:</h3></label><br>
+  <input type="password" id="lname" name="lname" value="Kumaran"><br><br>
+	
+
+
+<!--Drop Down / Select Box-->
+
+	<label for="courses"><h2>Choose Course</h2></label>
+
+	<!--<select id="courses" name="courses">-->
+	<!--<select id="courses" name="courses" size="4" multiple>-->
+	<!--<select id="courses" name="courses" size="3">-->
+
+<select id="courses" name="courses">
+ <option value="java"  >Java </option>
+  <option value="python" selected>Python</option>
+  <option value="ruby">Ruby</option>
+  <option value=".net">.NET</option>
+</select>
+
+<select id="courses" name="courses" size="4" multiple>
+  <option value="java"  >Java </option>
+  <option value="python" selected>Python</option>
+  <option value="ruby">Ruby</option>
+  <option value=".net">.NET</option>
+</select>
+
+<select id="courses" name="courses" size="3">
+<option value="java"  >Java </option>
+  <option value="python" selected>Python</option>
+  <option value="ruby">Ruby</option>
+  <option value=".net">.NET</option>
+</select>  
+<body
+</html>
